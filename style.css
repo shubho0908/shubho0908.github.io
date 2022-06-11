@@ -466,10 +466,6 @@ h2 {
     height: 30px;
   }
 
-  .my-skills {
-    padding: 30px;
-  }
-
   .navigations {
     margin-top: 200px;
     z-index: 2;
@@ -519,6 +515,10 @@ h2 {
 @media (max-width: 970px) {
   .content {
     width: 1000px;
+  }
+
+  .my-skills {
+    padding: 30px;
   }
 
   .img-main {
