@@ -729,23 +729,12 @@ h2 {
   }
 }
 
-/* @media (max-width: 820px) and (max-height: 1180px) {
-  #main {
-    height: 550px;
+@media (max-width: 720px) and (max-height: 1520px) {
+  .skills-png > img {
+    height: 30px;
   }
-  .img-main {
-    top: 780px;
-  }
-  .services {
-    height: 850px;
+
+  .my-skills > img {
+    height: 60px;
   }
 }
-
-@media (max-width: 768px) and (max-height: 1024px) {
-  #main {
-    height: 550px;
-  }
-  .img-main {
-    top: 650px;
-  }
-} */
