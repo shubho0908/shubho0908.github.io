@@ -151,12 +151,6 @@ h2 {
   transition-duration: 0.1s;
 }
 
-@media (min-width: 768px) {
-  .button-36 {
-    padding: 0 2.6rem;
-  }
-}
-
 .container {
   display: flex;
   flex-flow: column wrap;
@@ -564,6 +558,16 @@ h2 {
     padding-left: 80px;
     padding-right: 80px;
   }
+  .skills-png > img {
+    margin-top: 25px;
+    height: 45px;
+  }
+  .my-skills > img {
+    height: 65px;
+  }
+  .container {
+    padding: 30px;
+  }
 }
 
 @media (max-width: 660px) {
@@ -572,14 +576,8 @@ h2 {
     height: 400px;
   }
 
-  .my-skills {
-    height: 400px;
-    padding: 5px;
-  }
   #download {
-    font-size: 10px;
-    padding: 12px;
-    height: 40px;
+    display: none;
   }
 }
 
@@ -722,19 +720,9 @@ h2 {
 
 @media (max-width: 360px) and (max-height: 740px) {
   #main {
-    height: 320px;
+    height: 250px;
   }
   .img-main {
-    top: 520px;
-  }
-}
-
-@media (max-width: 720px) and (max-height: 1520px) {
-  .skills-png > img {
-    height: 30px;
-  }
-
-  .my-skills > img {
-    height: 60px;
+    top: 580px;
   }
 }
