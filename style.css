@@ -543,7 +543,7 @@ h2 {
 
 @media (max-width: 720px) {
   #main {
-    height: 380px;
+    height: 420px;
   }
   .img-main {
     right: 30px;
@@ -658,6 +658,9 @@ h2 {
   .img-main {
     top: 620px;
   }
+  #main {
+    height: 320px;
+  }
 }
 
 @media (max-width: 390px) {
@@ -669,13 +672,23 @@ h2 {
   }
 }
 
-@media (max-width: 310px) {
+@media (max-width: 335px) {
   .img-main {
-    top: 680px;
+    top: 720px;
     right: 45px;
   }
   #main {
-    height: 320px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 310px) {
+  .img-main {
+    top: 740px;
+    right: 45px;
+  }
+  #main {
+    height: 240px;
   }
   .editing {
     width: 190px;
